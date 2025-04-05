@@ -1,0 +1,42 @@
+{
+    "packages": [
+        {
+            "name": "ann/repo",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SiferNight/projectRepo.git",
+                "reference": "12f27a6def0ffc3633514d31121713de54512d52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SiferNight/projectRepo/zipball/12f27a6def0ffc3633514d31121713de54512d52",
+                "reference": "12f27a6def0ffc3633514d31121713de54512d52",
+                "shasum": ""
+            },
+            "time": "2025-04-05T16:49:40+00:00",
+            "default-branch": true,
+            "type": "project",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Ann\\Repo\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Ann",
+                    "email": "annapetukhova18@gmail.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/SiferNight/projectRepo/tree/master",
+                "issues": "https://github.com/SiferNight/projectRepo/issues"
+            },
+            "install-path": "../ann/repo"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

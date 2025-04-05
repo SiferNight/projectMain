@@ -1,0 +1,22 @@
+{
+    "name": "project/main",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Project\\Main\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ann",
+            "email": "annapetukhova18@gmail.com"
+        }
+    ],
+    "require": {
+        "ann/repo":"dev-master"
+    },
+    "repositories": [{
+        "type":"vcs",
+        "url":"https://github.com/SiferNight/projectRepo.git"
+    }]
+}
