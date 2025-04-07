@@ -6,5 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Ann\\Repo\\ChocolateFabrik' => $vendorDir . '/ann/repo/src/ChocolateFabrik.php',
+    'Ann\\Repo\\Snek' => $vendorDir . '/ann/repo/src/Snek.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Project\\Main\\Chocolate1' => $baseDir . '/src/Chocolate1.php',
+    'Project\\Main\\MiniChocolateFabrik' => $baseDir . '/src/MiniChocolateFabrik.php',
 );

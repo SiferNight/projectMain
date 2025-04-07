@@ -29,7 +29,11 @@ class ComposerStaticInit71c4d925c4bea7cf5a998168a2b3d36a
     );
 
     public static $classMap = array (
+        'Ann\\Repo\\ChocolateFabrik' => __DIR__ . '/..' . '/ann/repo/src/ChocolateFabrik.php',
+        'Ann\\Repo\\Snek' => __DIR__ . '/..' . '/ann/repo/src/Snek.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Project\\Main\\Chocolate1' => __DIR__ . '/../..' . '/src/Chocolate1.php',
+        'Project\\Main\\MiniChocolateFabrik' => __DIR__ . '/../..' . '/src/MiniChocolateFabrik.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

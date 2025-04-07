@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'project/main',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '87cd3e01550183e60f9fa574be0955b5f2d9dba3',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'ann/repo' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '12f27a6def0ffc3633514d31121713de54512d52',
+            'reference' => '6220d6d2ff9988154ab2758113dbe1986cdcec86',
             'type' => 'project',
             'install_path' => __DIR__ . '/../ann/repo',
             'aliases' => array(
@@ -22,9 +22,9 @@
             'dev_requirement' => false,
         ),
         'project/main' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '87cd3e01550183e60f9fa574be0955b5f2d9dba3',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

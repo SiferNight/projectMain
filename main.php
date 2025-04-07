@@ -2,8 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
-use Ann\Repo\ChocolateFabrik;
-use Ann\Repo\MiniChocolateFabrik;
+use Project\Main\ChocolateFabrik;
+use Project\Main\MiniChocolateFabrik;
 
 $premiumFabrik = new MiniChocolateFabrik();
 $premiumFabrik->orderSnek("Барни");
